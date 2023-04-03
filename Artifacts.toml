@@ -1,0 +1,103 @@
+[[avr_binutils]]
+arch = "aarch64"
+git-tree-sha1 = "880f25350092b1be692421f697a659b9cf54571e"
+libc = "glibc"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "7e2eec9904a546b50b1d909cd3fe579e23fa798ca6f68edfda58d19ee3356538"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.aarch64-linux-gnu.tar.gz"
+[[avr_binutils]]
+arch = "aarch64"
+git-tree-sha1 = "f3f92228e247ab6878407c681404f100206420c4"
+libc = "musl"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "49e6dd667dfb84503c6ee4af12bb59ded4cc30d637d7dddce018edb6eb16d146"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.aarch64-linux-musl.tar.gz"
+[[avr_binutils]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d6e835b339c3a1f195b97a359aad79a6d334c7d3"
+libc = "glibc"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "6ff9c612ced161419acc967dee56eda94cef4786a42f1469c78dd6c674e9106b"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.armv6l-linux-gnueabihf.tar.gz"
+[[avr_binutils]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fa4d4a7112bb966cd622e926d262aaa8201d06b9"
+libc = "musl"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "a25c5bb1a6538ccdc7531e55fbd23dc3a48beb095b8e1d19896358305e769c9a"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.armv6l-linux-musleabihf.tar.gz"
+[[avr_binutils]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e403f13c8508fbcbadcdc77c7e7a449f2da6d7a7"
+libc = "glibc"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "f442fcf9e5d8052381f4fb6a161c0b405b3fb2abf54fb781b94e1b175ff625d9"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.armv7l-linux-gnueabihf.tar.gz"
+[[avr_binutils]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "56c31ac4d0dd24300ffe110fc993af575c54e39a"
+libc = "musl"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "3e8a3769f5df09b813641e40f034fbf64a60055f8fc9bac5e239bb84d85b02c6"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.armv7l-linux-musleabihf.tar.gz"
+[[avr_binutils]]
+arch = "i686"
+git-tree-sha1 = "fb9c932c8063876a1437f4d71cc17966f497f191"
+libc = "glibc"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "107e7d9b7abeb9171b5a1a39b7ca3a6d1c6eb84e8de4346cd60230eba68b38b4"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.i686-linux-gnu.tar.gz"
+[[avr_binutils]]
+arch = "i686"
+git-tree-sha1 = "8412d33e466c97541e914f1e3d998c49d51c1099"
+libc = "musl"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "eb36d34d6a6c5cf5fbaebe0e4381c5c7554f7617f26f233c82cfbc2c966adea5"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.i686-linux-musl.tar.gz"
+[[avr_binutils]]
+arch = "powerpc64le"
+git-tree-sha1 = "561bc62732de53cb9533a26a9413313dd7ce3ab6"
+libc = "glibc"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "4dcefce5e9b725c03b0390b01618d7ae72b9ca4b01fedec220efcb8f7348455c"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.powerpc64le-linux-gnu.tar.gz"
+[[avr_binutils]]
+arch = "x86_64"
+git-tree-sha1 = "b911cdfdf2f19025d64ae0771503e984c75ab8dd"
+libc = "glibc"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "f6001f82209cd70b7032c6cb16cda509dc629f08f31c0bfd96e644b752e8eb7f"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.x86_64-linux-gnu.tar.gz"
+[[avr_binutils]]
+arch = "x86_64"
+git-tree-sha1 = "e46aeaa2def9cc7b6e436796d2f101f3c43c1326"
+libc = "musl"
+os = "linux"
+
+    [[avr_binutils.download]]
+    sha256 = "0a00ca320a070a9a53b07e009c435cc9bdbb5101e7e5772b3de32b6bb9c5b4ea"
+    url = "https://github.com/JuliaBinaryWrappers/avr_binutils_jll.jl/releases/download/avr_binutils-v2.40.0+0/avr_binutils.v2.40.0.x86_64-linux-musl.tar.gz"
